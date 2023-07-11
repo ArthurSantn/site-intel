@@ -78,7 +78,6 @@
         margin-right: 20px;
         padding: 7px;
         transition-duration: 300ms;
-        text-shadow: 1px 1px 5px black;
     }
 
     nav > a:hover{
@@ -92,7 +91,7 @@
         margin: auto;
         margin-bottom: 40px;
         min-width: 320px;
-        max-width: 950px;
+        max-width: 1000px;
         padding: 15px;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
@@ -137,13 +136,13 @@
         border-radius: 6px;
     }
     main> section> article> picture#pc> img {
-        min-width: 50%;
+        max-width: 50%;
         margin: auto;
         display: block;
     }
 
     main> section> article> picture#notebook> img {
-        min-width: 70%;
+        max-width: 70%;
         margin: auto;
         display: block;
     }
